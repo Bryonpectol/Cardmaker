@@ -4,6 +4,9 @@ let Select = document.getElementById("select");
 let CardContainer = document.getElementById("cardContainer");
 
 function Generate() {
+
+  alert("Good!");
+  
   let nameP= document.createElement("p");
   nameP.textContent = "" + Name;
 
